@@ -1,43 +1,38 @@
-.front-page {
-    /* background-color: aqua; */
-    background-image: url('vaporwave-image-3.jpeg');
-    /* position: absolute;
-    top: 0; right: 0; bottom: 0; left: 0; */
-    /* width: 100%;
-    max-width: 100%;
-    height: auto;  */
-    /* width: auto\9; */
-    position: absolute;
-    /* height: 100vh; */
-    /* width: 100vw; */
-    top: 0; right: 0; bottom: 0; left: 0;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-    background-position: 0px -150px;
-}
-#screenFiller {
-    position: absolute;
-    background-image: url('vaporwave-image-3.jpeg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    top: 0; right: 0; bottom: 0; left: 0;
-    /* height: 100vh; */
-    z-index: 0;
-    display: inline-block;
-    /* border: 15px solid orange */
+body, html {
+    margin: 0;
+    color: #777;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    background-color: #000;
 }
 
-img {
-    width: 500px;
-    /* height: 500px */
+.front-page-image {
+    background-image: url('vaporwave-image-3.jpeg');
+    height: 100vh;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.front-page-caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.front-page-caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
 }
 
 h1, h2, p {
     color: orange;
     z-index: 9;
-}
-
-span {
-    color: white;
+    display: block;
 }
