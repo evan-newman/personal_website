@@ -7,7 +7,7 @@ body, html {
 }
 
 .front-page-image {
-    background-image: url('vaporwave-image-3.jpeg');
+    background-image: url('images/front_page/vaporwave-image-3.jpeg');
     height: 100%;
     max-width: 100%;
     position: static;
@@ -35,11 +35,25 @@ body, html {
 .about-me {
     height: 400px;
     display: flex;
-    margin-top: 100px;
+    /* margin-top: 100px; */
+    padding-top: 100px;
     /* position: relative; */
     width: auto;
-    margin-left: 15%;
-    margin-right: 30%;
+    /* margin-left: 17%; */
+    /* margin-right: 30%; */
+    padding-left: 17%;
+    padding-right: 30%;
+    padding-bottom: 35px;
+    /* background-image: url("images/about_page/vaporwave-palm-tree-3.jpeg"); */
+    /* background-image: url("images/about_page/vapowave-palm-tree-background.jpg"); */
+    background-image: url("images/about_page/vaporwave-palm-tree-background-2.jpg");
+    background-position: 0px -200px;
+    /* background-image: url("images/about_page/vapowave-palm-tree-background-3.jpg"); */
+    /* background-image: url("images/about_page/vaporwave-palm-tree-background-4.jpg"); */
+
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .about-me-text {
@@ -47,6 +61,7 @@ body, html {
     display: flex;
     flex-direction: column;
     float: left;
+    max-width: 700px;
 }
 
 .about-me img {
@@ -63,16 +78,77 @@ body, html {
     bottom: 45px;
     font-size: 100px;
     margin: 0;
+
+    /* background-color: #111; */
+    /* color: #111; */
+    /* padding: 10px; */
 }
 
 .about-me-text span {
     position: relative;
     bottom: 30px;
-    /* left: 30px; */
-}
 
+    /* background-color: #111; */
+    /* color: #111; */
+    /* padding: 10px; */
+}
+/* 
 h1, h2, p {
     color: orange;
     z-index: 9;
     display: block;
+} */
+
+.section-cutoff {
+    height: 200px;
+}
+#orange-cutoff {
+    background-color: orange;
+    height: 30px;
+    width: auto;
+}
+#orange-2-cutoff {
+    background-color: lightsalmon;
+    height: 30px;
+}
+#yellow-cutoff {
+    background-color: lightcoral;
+    height: 30px;
+}
+#black-bar {
+    color: black;
+    height: 15px;
+}
+
+.skills {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: salmon;
+    opacity: 90%;
+
+    background-image: url('images/skills_page/vaporwave-clouds-3.jpg');
+    /* background-image: url('images/skills_page/vapowave-roman-background.png'); */
+    /* background-position: center; */
+    background-position: 0px -500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+}
+
+.roman-pillar {
+    height: 99%;
+    /* width: 15%; */
+    width: auto;
+}
+
+.skills-text h3 {
+    position: relative;
+    margin: 0;
+    font-size: 70px;
+    color: lightblue;
 }
