@@ -51,7 +51,8 @@ body, html {
     /* background-image: url("images/about_page/vaporwave-palm-tree-3.jpeg"); */
     /* background-image: url("images/about_page/vapowave-palm-tree-background.jpg"); */
     background-image: url("images/about_page/vaporwave-palm-tree-background-2.jpg");
-    background-position: 0px -200px;
+
+    background-position: 0px 30%;
     /* background-image: url("images/about_page/vapowave-palm-tree-background-3.jpg"); */
     /* background-image: url("images/about_page/vaporwave-palm-tree-background-4.jpg"); */
 
@@ -248,7 +249,8 @@ h1, h2, p {
     background-image: url('images/skills_page/vaporwave-clouds-4.jpeg');
     /* background-image: url('images/skills_page/vapowave-roman-background.png'); */
     /* background-position: center; */
-    background-position: 0px -500px;
+    /* background-position: 0px -500px; */
+    background-position: 0px 70%;
     background-repeat: no-repeat;
     background-size: cover;
 
