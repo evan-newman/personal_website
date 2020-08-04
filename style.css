@@ -34,9 +34,13 @@ body, html {
 
 .about-me {
     height: 400px;
-    display: flex;
-    /* margin-top: 100px; */
     padding-top: 100px;
+
+    /* height: 550px; */
+
+    display: flex;
+    /* flex-direction: column; */
+    /* margin-top: 100px; */
     /* position: relative; */
     width: auto;
     /* margin-left: 17%; */
@@ -99,9 +103,9 @@ h1, h2, p {
     display: block;
 } */
 
-.section-cutoff {
+/* .section-cutoff {
     height: 200px;
-}
+} */
 #orange-cutoff {
     background-color: orange;
     height: 30px;
@@ -115,9 +119,122 @@ h1, h2, p {
     background-color: lightcoral;
     height: 30px;
 }
+
 #black-bar {
     color: black;
     height: 15px;
+}
+#blank-section {
+    background-image: url('images/about_page/vaporwave-palm-tree-background-2.jpg');
+    height: 30px;
+}
+
+#black-bar-1 {
+    color: black;
+    height: 20px;
+}
+#blank-section-1 {
+    background-image: url('images/about_page/vaporwave-palm-tree-background-2.jpg');
+    height: 5px;
+}
+#black-bar-2 {
+    color: black;
+    height: 15px;
+}
+#blank-section-2 {
+    background-image: url('images/about_page/vaporwave-palm-tree-background-2.jpg');
+    height: 10px;
+}
+#black-bar-3 {
+    color: black;
+    height: 10px;
+}
+#blank-section-3 {
+    background-image: url('images/about_page/vaporwave-palm-tree-background-2.jpg');
+    height: 15px;
+}
+#black-bar-4 {
+    color: black;
+    height: 5px;
+}
+#blank-section-4 {
+    background-image: url('images/about_page/vaporwave-palm-tree-background-2.jpg');
+    height: 20px;
+}
+#black-bar-5 {
+    color: black;
+    height: 3px;
+}
+
+/* .section-cuttoff-2 {
+    height: 100px;
+    /* color: white; */
+    /* background-color: white; */
+/* } */
+#blank-section-00 {
+    /* background-image: url('images/skills_page/vaporwave-clouds-3.jpg'); */
+    /* background-color: black; */
+    background-color: rgb(127, 127, 221);
+    height: 3px;
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+}
+#black-bar-10 {
+    /* background-image: url('images/about_page/vaporwave-palm-tree-background-2.jpg'); */
+    color: black;
+    height: 20px;
+}
+#blank-section-10 {
+    /* background-image: url('images/skills_page/vaporwave-clouds-3.jpg'); */
+    /* background-color: black; */
+    background-color: rgb(127, 127, 221);
+    height: 5px;
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+}
+#black-bar-20 {
+    /* background-image: url('images/about_page/vaporwave-palm-tree-background-2.jpg'); */
+    color: black;
+    height: 15px;
+}
+#blank-section-20 {
+    /* background-image: url('images/skills_page/vaporwave-clouds-3.jpg'); */
+    /* background-color: black; */
+    background-color: rgb(127, 127, 221);
+    height: 10px;
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+}
+#black-bar-30 {
+    /* background-image: url('images/about_page/vaporwave-palm-tree-background-2.jpg'); */
+    color: black;
+    height: 10px;
+}
+#blank-section-30 {
+    /* background-image: url('images/skills_page/vaporwave-clouds-3.jpg'); */
+    /* background-color: black; */
+    background-color: rgb(127, 127, 221);
+    height: 15px;
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+}
+#black-bar-40 {
+    /* background-image: url('images/about_page/vaporwave-palm-tree-background-2.jpg'); */
+    /* color: black; */
+    height: 5px;
+}
+#blank-section-40 {
+    /* background-image: url('images/skills_page/vaporwave-clouds-3.jpg'); */
+    /* background-color: black; */
+    background-color: rgb(127, 127, 221);
+    height: 20px;
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+}
+#black-bar-50 {
+    /* background-image: url('images/about_page/vaporwave-palm-tree-background-2.jpg'); */
+    color: black;
+    height: 3px;
 }
 
 .skills {
@@ -125,10 +242,10 @@ h1, h2, p {
     padding-bottom: 30px;
     padding-left: 10px;
     padding-right: 10px;
-    background-color: salmon;
+    /* background-color: salmon; */
     opacity: 90%;
 
-    background-image: url('images/skills_page/vaporwave-clouds-3.jpg');
+    background-image: url('images/skills_page/vaporwave-clouds-4.jpeg');
     /* background-image: url('images/skills_page/vapowave-roman-background.png'); */
     /* background-position: center; */
     background-position: 0px -500px;
@@ -146,9 +263,21 @@ h1, h2, p {
     width: auto;
 }
 
+.skills-text {
+    color: black;
+    background-color: white;
+    opacity: 80%;
+    height: 90%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
 .skills-text h3 {
     position: relative;
     margin: 0;
     font-size: 70px;
-    color: lightblue;
+    color: blue;
+    text-align: center;
 }
