@@ -283,3 +283,18 @@ h1, h2, p {
     color: blue;
     text-align: center;
 }
+
+.projects {
+    height: 800px;
+    background-image: url('images/project_page/vaporwave-desert-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: 0px 70%; */
+}
+
+.contact {
+    height: 100%;
+    background-image: url('images/contact_page/vaporwave-windows95.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
