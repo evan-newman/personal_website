@@ -97,29 +97,6 @@ body, html {
     /* color: #111; */
     /* padding: 10px; */
 }
-/* 
-h1, h2, p {
-    color: orange;
-    z-index: 9;
-    display: block;
-} */
-
-/* .section-cutoff {
-    height: 200px;
-} */
-#orange-cutoff {
-    background-color: orange;
-    height: 30px;
-    width: auto;
-}
-#orange-2-cutoff {
-    background-color: lightsalmon;
-    height: 30px;
-}
-#yellow-cutoff {
-    background-color: lightcoral;
-    height: 30px;
-}
 
 #black-bar {
     color: black;
@@ -131,7 +108,7 @@ h1, h2, p {
 }
 
 #black-bar-1 {
-    color: black;
+    background-color: black;
     height: 20px;
 }
 #blank-section-1 {
@@ -139,7 +116,7 @@ h1, h2, p {
     height: 5px;
 }
 #black-bar-2 {
-    color: black;
+    background-color: black;
     height: 15px;
 }
 #blank-section-2 {
@@ -147,7 +124,7 @@ h1, h2, p {
     height: 10px;
 }
 #black-bar-3 {
-    color: black;
+    background-color: black;
     height: 10px;
 }
 #blank-section-3 {
@@ -155,7 +132,7 @@ h1, h2, p {
     height: 15px;
 }
 #black-bar-4 {
-    color: black;
+    background-color: black;
     height: 5px;
 }
 #blank-section-4 {
@@ -163,15 +140,10 @@ h1, h2, p {
     height: 20px;
 }
 #black-bar-5 {
-    color: black;
+    background-color: black;
     height: 3px;
 }
 
-/* .section-cuttoff-2 {
-    height: 100px;
-    /* color: white; */
-    /* background-color: white; */
-/* } */
 #blank-section-00 {
     /* background-image: url('images/skills_page/vaporwave-clouds-3.jpg'); */
     /* background-color: black; */
@@ -182,7 +154,7 @@ h1, h2, p {
 }
 #black-bar-10 {
     /* background-image: url('images/about_page/vaporwave-palm-tree-background-2.jpg'); */
-    color: black;
+    background-color: black;
     height: 20px;
 }
 #blank-section-10 {
@@ -195,7 +167,7 @@ h1, h2, p {
 }
 #black-bar-20 {
     /* background-image: url('images/about_page/vaporwave-palm-tree-background-2.jpg'); */
-    color: black;
+    background-color: black;
     height: 15px;
 }
 #blank-section-20 {
@@ -208,7 +180,7 @@ h1, h2, p {
 }
 #black-bar-30 {
     /* background-image: url('images/about_page/vaporwave-palm-tree-background-2.jpg'); */
-    color: black;
+    background-color: black;
     height: 10px;
 }
 #blank-section-30 {
@@ -222,6 +194,7 @@ h1, h2, p {
 #black-bar-40 {
     /* background-image: url('images/about_page/vaporwave-palm-tree-background-2.jpg'); */
     /* color: black; */
+    background-color: black;
     height: 5px;
 }
 #blank-section-40 {
@@ -234,7 +207,7 @@ h1, h2, p {
 }
 #black-bar-50 {
     /* background-image: url('images/about_page/vaporwave-palm-tree-background-2.jpg'); */
-    color: black;
+    background-color: black;
     height: 3px;
 }
 
@@ -243,13 +216,8 @@ h1, h2, p {
     padding-bottom: 30px;
     padding-left: 10px;
     padding-right: 10px;
-    /* background-color: salmon; */
-    opacity: 90%;
 
     background-image: url('images/skills_page/vaporwave-clouds-4.jpeg');
-    /* background-image: url('images/skills_page/vapowave-roman-background.png'); */
-    /* background-position: center; */
-    /* background-position: 0px -500px; */
     background-position: 0px 70%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -261,7 +229,6 @@ h1, h2, p {
 
 .roman-pillar {
     height: 99%;
-    /* width: 15%; */
     width: auto;
 }
 
@@ -277,7 +244,6 @@ h1, h2, p {
 }
 
 .skills-text h3 {
-    position: relative;
     margin: 0;
     font-size: 70px;
     color: blue;
@@ -292,9 +258,46 @@ h1, h2, p {
     /* background-position: 0px 70%; */
 }
 
+.projects-text h3 {
+    margin: 0;
+    font-size: 70px;
+    text-align: center;
+}
+
+.projects-boxes {
+    /* position: relative; */
+    /* left: 20%; */
+    /* right: 20%; */
+    /* margin-left: 20%; */
+    /* margin-right: 20%; */
+    margin: 0px auto;
+    height: 80%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+}
+
+.box {
+    height: 150px;
+    width: 150px;
+    margin: 0 auto;
+    background-color: white;
+    color: black;
+}
+.box span {
+    text-align: center;
+}
+
 .contact {
     height: 100%;
     background-image: url('images/contact_page/vaporwave-windows95.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.contact h3 {
+    margin: 0;
+    font-size: 70px;
+    text-align: center;
 }
