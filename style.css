@@ -122,6 +122,7 @@ body, html {
     /* background-color: #5c16c5; */
     /* background-color: #e100ff; */
     background-color: #e0218a;
+    /* background-color: #ED00E5; */
     position: absolute;
     z-index: 10;
     /* margin-top: 100px; */
@@ -179,6 +180,7 @@ body, html {
     max-width: 700px;
     padding-top: 5rem;
     padding-bottom: 5rem;
+    text-align: justify;
 }
 
 /* .about-me img {
