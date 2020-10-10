@@ -1,65 +1,175 @@
+@font-face {
+    font-family:streamster;
+    src:url('fonts/streamster.ttf');
+}
+
+#main {
+    font-family:streamster;
+}
+
 body, html {
     margin: 0;
-    color: white;
     font: 400 15px/1.8 "Lato", sans-serif;
-    background-color: #111;
-    height: 100%;
+    /* font: 400 15px/1.8 streamster; */
+    /* font: 700 100px/1.8 streamster; */
+    color: #f2f2f2;
+    background-color: #19171c;
+    /* -webkit-text-stroke: 2px black; */
 }
 
-.front-page-image {
-    background-image: url('images/front_page/vaporwave-image-3.jpeg');
-    height: 100%;
-    max-width: 100%;
-    position: static;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.main-page {
+    display: flex;
+    flex-direction: column;
 }
-.front-page-caption {
+
+.main-page-caption {
     position: absolute;
+    top: 320px;
     left: 0;
-    top: 50%;
-    width: 100%;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
-    color: #000;
+    color: black;
+    max-height: 100rem;
+    z-index: 2;
 }
 
-.front-page-caption span.border {
+.border {
+    font: 700 100px/1.8 streamster;
+}
+
+.sun {
+    /* position: relative; */
+    /* position: absolute; */
+    /* height: 1000px; */
+    height: 800px;
+    width: auto;
+    /* max-height: 800px; */
+    /* left: 0; */
+    /* right: 0; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid {
+    position: absolute; 
+    width: 100%;
+    max-height: 30rem;
+    top: 629px;
+}
+
+/* .front-page-caption span.border {
     background-color: #111;
     color: #fff;
     padding: 18px;
     font-size: 25px;
     letter-spacing: 10px;
+    z-index: 10;
+} */
+
+.palm-tree-cluster {
+    position: relative;
+    bottom: 30rem;
+    z-index: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cluster-1 {
+    left: -125px;
+    float: left;
+}
+
+.cluster-2 {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    float: right;
+    left: 125px;
+    margin-right: auto;
+    margin-left: auto;
+
 }
 
 .about-me {
-    height: 400px;
-    padding-top: 100px;
-
-    /* height: 550px; */
-
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    /* padding-top: 24px; */
+    z-index: 10;
     display: flex;
+    /* position: relative; */
+    /* bottom: 28rem; */
+    /* padding-top: 5rem; */
+    padding-left: 24px;
+    padding-right: 24px;
+    width: auto;
+    /* background-image: url("images/about_page/vaporwave-palm-tree-background-2.jpg"); */
+    /* padding-top: 300px; */
+    /* padding-bottom: 300px; */
+    /* background-color: #242427; */
+    /* background-color: #fa1ed2; */
+    /* background-color: #5c16c5; */
+    background-position: 0px 30%;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 15;
+}
+.container {
+    /* background-color: #5c16c5; */
+    /* background-color: #e100ff; */
+    background-color: #e0218a;
+    position: absolute;
+    z-index: 10;
+    /* margin-top: 100px; */
+    display: flex;
+    /* background-color: #242427; */
+    /* color: #19171c; */
+    color: whitesmoke;
+    justify-content: center;
+    box-sizing: border-box;
+    border-radius: 6px;
+    box-shadow: 0 5px 8px #111;
+    padding-left: 24px;
+    padding-right: 24px;
+    /* max-width: 1280px; */
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    margin-top: 95px;
     /* flex-direction: column; */
     /* margin-top: 100px; */
     /* position: relative; */
-    width: auto;
+    /* width: auto; */
     /* margin-left: 17%; */
     /* margin-right: 30%; */
-    padding-left: 17%;
-    padding-right: 30%;
-    padding-bottom: 35px;
+    /* padding-left: 17%; */
+    /* padding-right: 30%; */
+    /* padding-bottom: 35px; */
     /* background-image: url("images/about_page/vaporwave-palm-tree-3.jpeg"); */
     /* background-image: url("images/about_page/vapowave-palm-tree-background.jpg"); */
-    background-image: url("images/about_page/vaporwave-palm-tree-background-2.jpg");
+    /* background-image: url("images/about_page/vaporwave-palm-tree-background-2.jpg"); */
+    /* background-color: #242427; */
 
-    background-position: 0px 30%;
+    /* background-position: -80rem 40%; */
     /* background-image: url("images/about_page/vapowave-palm-tree-background-3.jpg"); */
     /* background-image: url("images/about_page/vaporwave-palm-tree-background-4.jpg"); */
 
     /* background-position: center; */
-    background-repeat: no-repeat;
-    background-size: cover;
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+
 }
+/* .about-me .container { */
+     /* background-image: url("images/about_page/vaporwave-palm-tree-background-2.jpg"); */
+    /* background-color: #242427; */
+
+    /* background-position: -80rem 40%;    */
+/* } */
 
 .about-me-text {
     position: relative;
@@ -69,23 +179,26 @@ body, html {
     max-width: 700px;
 }
 
-.about-me img {
+/* .about-me img {
     width: 356px;
     height: auto;
     max-width: 100%;
     max-height: 100%;
     display: flex;
-}
+} */
 
 .about-me-text h3 {
-    position: relative;
-    right: 80px;
-    bottom: 45px;
+    /* position: relative; */
+    /* right: 80px; */
+    /* bottom: 45px; */
     font-size: 100px;
-    margin: 0;
+    /* margin: 0; */
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
 
     /* background-color: #111; */
-    /* color: #111; */
+    /* color: #242427; */
     /* padding: 10px; */
 }
 
@@ -98,126 +211,13 @@ body, html {
     /* padding: 10px; */
 }
 
-#black-bar {
-    color: black;
-    height: 15px;
-}
-#blank-section {
-    background-image: url('images/about_page/vaporwave-palm-tree-background-2.jpg');
-    height: 30px;
-}
-
-#black-bar-1 {
-    background-color: black;
-    height: 20px;
-}
-#blank-section-1 {
-    background-image: url('images/about_page/vaporwave-palm-tree-background-2.jpg');
-    height: 5px;
-}
-#black-bar-2 {
-    background-color: black;
-    height: 15px;
-}
-#blank-section-2 {
-    background-image: url('images/about_page/vaporwave-palm-tree-background-2.jpg');
-    height: 10px;
-}
-#black-bar-3 {
-    background-color: black;
-    height: 10px;
-}
-#blank-section-3 {
-    background-image: url('images/about_page/vaporwave-palm-tree-background-2.jpg');
-    height: 15px;
-}
-#black-bar-4 {
-    background-color: black;
-    height: 5px;
-}
-#blank-section-4 {
-    background-image: url('images/about_page/vaporwave-palm-tree-background-2.jpg');
-    height: 20px;
-}
-#black-bar-5 {
-    background-color: black;
-    height: 3px;
-}
-
-#blank-section-00 {
-    /* background-image: url('images/skills_page/vaporwave-clouds-3.jpg'); */
-    /* background-color: black; */
-    background-color: rgb(127, 127, 221);
-    height: 3px;
-    /* background-repeat: no-repeat;
-    background-size: cover; */
-}
-#black-bar-10 {
-    /* background-image: url('images/about_page/vaporwave-palm-tree-background-2.jpg'); */
-    background-color: black;
-    height: 20px;
-}
-#blank-section-10 {
-    /* background-image: url('images/skills_page/vaporwave-clouds-3.jpg'); */
-    /* background-color: black; */
-    background-color: rgb(127, 127, 221);
-    height: 5px;
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
-}
-#black-bar-20 {
-    /* background-image: url('images/about_page/vaporwave-palm-tree-background-2.jpg'); */
-    background-color: black;
-    height: 15px;
-}
-#blank-section-20 {
-    /* background-image: url('images/skills_page/vaporwave-clouds-3.jpg'); */
-    /* background-color: black; */
-    background-color: rgb(127, 127, 221);
-    height: 10px;
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
-}
-#black-bar-30 {
-    /* background-image: url('images/about_page/vaporwave-palm-tree-background-2.jpg'); */
-    background-color: black;
-    height: 10px;
-}
-#blank-section-30 {
-    /* background-image: url('images/skills_page/vaporwave-clouds-3.jpg'); */
-    /* background-color: black; */
-    background-color: rgb(127, 127, 221);
-    height: 15px;
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
-}
-#black-bar-40 {
-    /* background-image: url('images/about_page/vaporwave-palm-tree-background-2.jpg'); */
-    /* color: black; */
-    background-color: black;
-    height: 5px;
-}
-#blank-section-40 {
-    /* background-image: url('images/skills_page/vaporwave-clouds-3.jpg'); */
-    /* background-color: black; */
-    background-color: rgb(127, 127, 221);
-    height: 20px;
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
-}
-#black-bar-50 {
-    /* background-image: url('images/about_page/vaporwave-palm-tree-background-2.jpg'); */
-    background-color: black;
-    height: 3px;
-}
-
 .skills {
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 10px;
     padding-right: 10px;
 
-    background-image: url('images/skills_page/vaporwave-clouds-4.jpeg');
+    /* background-image: url('images/skills_page/ws_Pink_Clouds_1920x1080.jpg'); */
     background-position: 0px 70%;
     background-repeat: no-repeat;
     background-size: cover;
