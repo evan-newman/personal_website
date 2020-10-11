@@ -20,23 +20,53 @@ body, html {
 .main-page {
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 .main-page-caption {
+    /* top: 240px; */
     position: absolute;
+    width: auto;
     top: 320px;
     left: 0;
     right: 0;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    color: black;
+    display: inline-block;
+    /* color: black; */
+    /* color: #6DFDE0; */
+}
+.black-border {
+    font: 700 100px/1.8 streamster;
+    position: absolute;
+    /* color: black; */
+    /* color: #75DEFF; */
+    color: #6BBDFF;
+    z-index: 0;
     max-height: 100rem;
-    z-index: 2;
+    /* top: 320px; */
+    left: 0cm;
+    right: 0.3cm;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .border {
     font: 700 100px/1.8 streamster;
+    z-index: 5;
+    text-shadow: 2px 2px black;
+    /* position: absolute; */
+    /* color: #75DEFF; */
+    color: black;
+    /* margin-right: 0.3cm; */
+    /* padding-top: 0.5cm; */
+    /* margin-top: 1cm; */
+    /* left: 0; */
+    /* right: 0; */
+    /* left: 1cm; */
+    /* top: 0.5cm; */
+    max-height: 100rem;
 }
 
 .sun {
@@ -50,6 +80,18 @@ body, html {
     /* right: 0; */
     margin-left: auto;
     margin-right: auto;
+}
+
+.triangle {
+    position: absolute;
+    top: 270px;
+    height: 400px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    transform: rotate(25deg);
 }
 
 .grid {
@@ -70,7 +112,7 @@ body, html {
 
 .palm-tree-cluster {
     position: relative;
-    bottom: 30rem;
+    bottom: 27rem;
     z-index: 0;
     margin-left: auto;
     margin-right: auto;
@@ -121,8 +163,15 @@ body, html {
 .container {
     /* background-color: #5c16c5; */
     /* background-color: #e100ff; */
-    background-color: #e0218a;
+    /* background-color: #e0218a; */
+    /* background-color: #6BBDFF; */
     /* background-color: #ED00E5; */
+    /* background-color: #680097; */
+    /* background-color: #19171c; */
+    background-color: #26262c;
+    /* color: black; */
+    /* background-color: #6bbafa; */
+    /* background-color: #e6429d; */
     position: absolute;
     z-index: 10;
     /* margin-top: 100px; */
@@ -131,9 +180,9 @@ body, html {
     /* color: #19171c; */
     color: whitesmoke;
     justify-content: center;
-    box-sizing: border-box;
-    border-radius: 6px;
-    box-shadow: 0 5px 8px #111;
+    /* box-sizing: border-box; */
+    /* border-radius: 6px; */
+    /* box-shadow: 0 5px 8px #111; */
     padding-left: 24px;
     padding-right: 24px;
     /* max-width: 1280px; */
@@ -181,6 +230,10 @@ body, html {
     padding-top: 5rem;
     padding-bottom: 5rem;
     text-align: justify;
+    /* color: #20141f; */
+    /* color: black; */
+    /* color: #6BBDFF; */
+    color: whitesmoke;
 }
 
 /* .about-me img {
@@ -195,13 +248,14 @@ body, html {
     /* position: relative; */
     /* right: 80px; */
     /* bottom: 45px; */
-    font-size: 80px;
+    font-size: 60px;
     /* margin: 0; */
     margin-right: auto;
     margin-left: auto;
     text-align: center;
     padding: 0px;
     margin: 0;
+    /* text-shadow: 2px 2px black; */
 
     /* background-color: #111; */
     /* color: #242427; */
@@ -211,6 +265,11 @@ body, html {
 .about-me-text span {
     /* position: relative; */
     /* bottom: 30px; */
+    /* text-shadow: 1px 1px black; */
+    /* font-size: 20px; */
+    /* line-height: 1.5; */
+    font-weight: 500;
+    font-size: 1.25rem;
     margin: 0;
 
     /* background-color: #111; */
