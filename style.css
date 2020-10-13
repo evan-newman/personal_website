@@ -255,6 +255,7 @@ body, html {
     text-align: center;
     padding: 0px;
     margin: 0;
+    font: 700 60px/1.8 streamster;
     /* text-shadow: 2px 2px black; */
 
     /* background-color: #111; */
@@ -277,31 +278,125 @@ body, html {
     /* padding: 10px; */
 }
 
+.resume-text {
+    font: 700 60px/1.8 streamster;
+    text-align: center;
+}
+
 .skills {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 10px;
-    padding-right: 10px;
+    /* padding-top: 30px; */
+    /* padding-bottom: 30px; */
+    /* padding-left: 10px; */
+    /* padding-right: 10px; */
 
     /* background-image: url('images/skills_page/ws_Pink_Clouds_1920x1080.jpg'); */
-    background-position: 0px 70%;
-    background-repeat: no-repeat;
-    background-size: cover;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    /* background-color: purple; */
 
-    height: 800px;
+    /* height: 800px; */
     width: auto;
+    max-width: 1280px;
     display: flex;
-    flex-direction: row;
+    /* float: inline-start; */
+    /* float: left; */
+    /* display: inline; */
+    /* flex-direction: row; */
     /* margin: auto; */
     justify-content: center;
 }
+
+.work-bust {
+    position: relative;
+    height: 200px;
+    width: auto;
+    left: 15rem;
+    bottom: 10rem;
+}
+.degree-bust {
+    position: absolute;
+    height: 200px;
+    width: auto;
+    /* right: 50px; */
+    /* bottom: 100px; */
+    /* right: 880px; */
+    /* top: 3px; */
+    /* left: 300px; */
+    left: 90px;
+    right: 0;
+    /* top: 5px; */
+    margin-right: auto;
+    margin-left: auto;
+    /* margin-bottom: 700px; */
+    /* bottom: 5px; */
+}
+.work-and-publications {
+    display: flex;
+    flex-direction: column;
+    /* width: 800px; */
+}
+
+.work-experience {
+    float: left;
+    background-color: #680097;
+    margin-right: 5px;
+    padding: 40px 35px;
+    border-radius: 12px;
+    flex-grow: 1;
+    margin-bottom: 5px;
+}
+
+.publications {
+    background-color: #680097;
+    margin-right: 5px;
+    padding: 40px 35px;
+    border-radius: 12px;
+    flex-grow:1;
+    margin-top: 5px;
+}
+
+.degree-and-skills {
+    /* align-items: center; */
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    /* margin-top: auto; */
+    /* margin-bottom: auto; */
+    width: 800px;
+    flex-grow: 1;
+}
+
+.degree {
+    padding: 40px 35px;
+    flex-grow: 1;
+    background-color: #680097;
+    border-radius: 12px;
+    margin-top: auto;
+    margin-bottom: 5px;
+    /* height: auto; */
+    /* position: absolute; */
+}
+.my-skills {
+    /* position: absolute; */
+    padding: 40px 35px;
+    flex-grow: 1;
+    /* height: auto; */
+    background-color: #680097;
+    border-radius: 12px;
+    margin-bottom: auto;
+    margin-top: 5px;
+}
+
 
 .roman-pillar {
     height: 99%;
     width: auto;
 }
 
-.skills-text {
+/* .skills-text {
     color: black;
     background-color: white;
     opacity: 80%;
@@ -310,14 +405,14 @@ body, html {
     margin-right: 10%;
     padding-left: 5%;
     padding-right: 5%;
-}
+} */
 
-.skills-text h3 {
+/* .skills-text h3 {
     margin: 0;
     font-size: 70px;
     color: blue;
     text-align: center;
-}
+} */
 
 .projects {
     height: 800px;
