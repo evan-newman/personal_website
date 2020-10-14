@@ -154,7 +154,7 @@ body, html {
 }
 
 .skills {
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
     margin-left: auto;
     margin-right: auto;
     left: 0;
@@ -214,10 +214,15 @@ body, html {
     margin-top: 5px;
 }
 
+.pdf {
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    text-align: center;
+}
 
-.roman-pillar {
-    height: 99%;
-    width: auto;
+.pdf-resume {
+    text-align: center;
+    color: white;
 }
 
 .projects {
@@ -259,12 +264,27 @@ body, html {
 .box {
     display: flex;
     margin-bottom: 3rem;
+    height: auto;
+    color: white;
+    text-decoration: none;
+    border-radius: 12px;
+    border-style: solid;
+    box-shadow: 10px 5px #26262c;
+    border-width: 2px;
+    border-color: #26262c;
 }
 
 .box img {
     height: auto;
     width: 200px;
     margin-right: 3rem;
+}
+
+.box:hover{    
+    box-shadow: 10px 5px black;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
 }
 
 .contact {
@@ -286,7 +306,8 @@ body, html {
     margin-left: auto;
 }
 
-.email {
+.contact-links {
+    display: flex;
     padding: 10px;
     display: flex;
     margin-right: auto;
@@ -294,8 +315,26 @@ body, html {
     justify-content: center;
 }
 
-.email-logo {
-    margin-right: 1rem;
-    width: 50px;
+.linky {
+    display: flex;
+    padding: 10px;
+    height: auto;
+    color: white;
+    text-decoration: none;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: #19171c;
+}
+
+.linky p {
+    margin-left: 8px;
+}
+
+.linky:hover{
+    background-color: #26262c;
+}
+
+.logo {
+    width: 60px;
     height: auto;
 }
