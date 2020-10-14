@@ -154,7 +154,6 @@ body, html {
 }
 
 .skills {
-    /* margin-bottom: 100px; */
     margin-left: auto;
     margin-right: auto;
     left: 0;
@@ -187,6 +186,14 @@ body, html {
     border-radius: 12px;
     flex-grow:1;
     margin-top: 5px;
+}
+
+.publication-links {
+    color: white;
+    text-decoration: none;
+}
+.publication-links:hover{
+    color: blue;
 }
 
 .degree-and-skills {
