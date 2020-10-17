@@ -7,6 +7,9 @@
     font-family:streamster;
 }
 
+#palm-s1 {display: none}
+#palm-s2 {display: none}
+
 body, html {
     margin: 0;
     font: 400 15px/1.8 "Lato", sans-serif;
@@ -83,22 +86,54 @@ body, html {
     top: 629px;
 }
 
-.cluster-1 {
+#palm-trees {
+    width: 1712px;
+    display: table;
     position: absolute;
-    left: 70px;
-    float: left;
     top: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    overflow: auto;
+}
+
+.cell {
+    display: table-cell;
+    vertical-align: middle;
+    height: 200px;
+}
+
+.cluster-1 {
+    float: left;
     z-index: 0;
 }
 
 .cluster-2 {
-    top: 300px;
-    position: absolute;
-    -webkit-transform: scaleX(-1);
+    float: right;
     transform: scaleX(-1);
-    right: 70px;
     z-index: 0;
 }
+
+@media (max-width: 1712px) {
+    #palm-trees {
+        width: 1200px;
+    }
+    #palm-1 {display: none;}
+    #palm-2 {display: none;}
+    #palm-s1 {display: block;}
+    #palm-s2 {display: block;}
+}
+
+@media (max-width: 1200px) {
+    #palm-trees {
+        width: auto;
+    }
+    #palm-s1 {display: none;}
+    #palm-s2 {display: none;}
+}
+
+
 
 .about-me {
     z-index: 10;
