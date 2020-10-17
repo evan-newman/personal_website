@@ -228,7 +228,7 @@ body, html {
     text-decoration: none;
 }
 .publication-links:hover{
-    color: blue;
+    color: yellow;
 }
 
 .degree-and-skills {
@@ -314,12 +314,31 @@ body, html {
     box-shadow: 10px 5px #26262c;
     border-width: 2px;
     border-color: #26262c;
+    flex-grow: 1;
 }
 
-.box img {
+.box-image {
     height: auto;
     width: 200px;
+    min-width: 200px;
+    max-height: 200px;
     margin-right: 3rem;
+}
+
+#box-gh-logo {
+    max-height: 150px;
+    min-width: 150px;
+    padding-right: 25px;
+    padding-left: 25px;
+    /* margin-right: 2rem; */
+}
+#box-k-logo {
+    max-height: 147.683px;
+}
+.box-text {
+    flex-grow: 1;
+    float: left;
+    /* overflow: scroll; */
 }
 
 .box:hover{    
@@ -378,5 +397,6 @@ body, html {
 
 .logo {
     width: 60px;
-    height: auto;
+    height: 60px;
+    /* height: auto; */
 }
